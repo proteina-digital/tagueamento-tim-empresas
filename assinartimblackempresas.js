@@ -31,7 +31,7 @@ $(document).on('click', "#preco-topo", function(event) {
     dataLayerPush(category, action, label);
 });
 
-$(document).on('click', ".powerzap_open_button_standardType_iframe", function(event) {
+$(document).on('click', "#chat", function(event) {
     let category = 'chat', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
