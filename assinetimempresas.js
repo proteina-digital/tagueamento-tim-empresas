@@ -49,7 +49,7 @@ $(document).on('click', "#fechar-modal", function(event) {
 //     dataLayerPush(category, action, label);
 // });
 
-$(document).one("keyup", "#preencher-telefone", function() {
+$(document).one("keyup", "#aquitelefone", function() {
     let category = 'preencher', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
