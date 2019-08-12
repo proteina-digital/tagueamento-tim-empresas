@@ -103,22 +103,22 @@ $(document).on('click', "#assine-50gb, #assine-50gb-mb", function(event) {
     dataLayerPush(category, action, label);
 });
 
-$(document).on('click', "#beneficios-6gb, #beneficios-6gb-mb", function(event) {
+$(document).one('click', "#beneficios-6gb, #beneficios-6gb-mb", function(event) {
     let category = 'beneficios-6gb', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
 
-$(document).on('click', "#beneficios-10gb, #beneficios-10gb-mb", function(event) {
+$(document).one('click', "#beneficios-10gb, #beneficios-10gb-mb", function(event) {
     let category = 'beneficios-10gb', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
 
-$(document).on('click', "#beneficios-20gb, #beneficios-20gb-mb", function(event) {
+$(document).one('click', "#beneficios-20gb, #beneficios-20gb-mb", function(event) {
     let category = 'beneficios-20gb', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
 
-$(document).on('click', "#beneficios-50gb, #beneficios-50gb-mb", function(event) {
+$(document).one('click', "#beneficios-50gb, #beneficios-50gb-mb", function(event) {
     let category = 'beneficios-50gb', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
