@@ -96,8 +96,17 @@ $(document).on('click', "#assine-rodape", function(event) {
     dataLayerPush(category, action, label);
 });
 
+$(document).on('click', "#sumario", function(event) {
+    let category = 'sumario', action = 'clique', label = 'botao';
+    dataLayerPush(category, action, label);
+});
+
+$(document).on('click', "#regulamento", function(event) {
+    let category = 'regulamento', action = 'clique', label = 'botao';
+    dataLayerPush(category, action, label);
+});
+
 $(document).on('click', "#botao-0800-rodape", function(event) {
     let category = '0800-rodape', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
-
