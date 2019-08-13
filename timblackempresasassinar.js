@@ -19,7 +19,7 @@ $(document).on('click', "#chat", function(event) {
     dataLayerPush(category, action, label);
 });
 
-$(document).on('click', "#whatsapp", function(event) {
+$(document).one('click', "#whatsapp", function(event) {
     let category = 'whats', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });

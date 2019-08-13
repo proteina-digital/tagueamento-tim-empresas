@@ -24,7 +24,7 @@ $(document).on('click', "#preco-topo", function(event) {
     dataLayerPush(category, action, label);
 });
 
-$(document).on('click', "#chat", function(event) {
+$(document).one('click', "#chat", function(event) {
     let category = 'chat', action = 'clique', label = 'botao';
     dataLayerPush(category, action, label);
 });
